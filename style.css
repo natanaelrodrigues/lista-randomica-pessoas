@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    background-image: linear-gradient(to right, rgb(13, 37, 51), rgb(17, 54, 71));
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+    outline: none;
+    font-size: 18px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    border-left: 3px solid white;
+    color:white;
+    letter-spacing: 2px;
+    text-align: right;
+}
+
+button{
+    background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+    border: none;
+    width: 220px;
+    margin-left: 20px;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+}
+
+label{
+    margin-left: 50px;
+}
+
+.container{
+    padding:20px;
+}
+
+article{
+    margin:30px;
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(18, 35, 44), rgb(7, 79, 112));
+    border-radius: 10px;
+}

@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lista Randomica de pessoas | By Natanael</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+   <head>
+       <h1>Lista randomica de pessoas</h1>
+       <hr>
+       <label>
+           Quantidade de pessoas
+           <input type="number" name="qtde" id="qtde" min="1" value="1">
+           <button onClick="buscaDadosQtde()">Atualizar</button>
+       </label>
+   </head>
+   <div class="container" id="container">
+
+   </div>
+   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="moment.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
